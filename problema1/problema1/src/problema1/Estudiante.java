@@ -28,22 +28,22 @@ public class Estudiante {
         calif3= 0;
     }
     
-    public void establecerNombre(String c) {
-        nomb = c;
+    public void establecerNombre(String n) {
+        nomb = n;
     }
 
-    public void establecerCalificacion1(double c) {
-        calif1 = c;
+    public void establecerCalificacion1(double c1) {
+        calif1 = c1;
     }
 
-    public void establecerCalificacion2(double c) {
-        calif2 = c;
+    public void establecerCalificacion2(double c2) {
+        calif2 = c2;
     }
-    public void establecerCalificacion3(double c) {
-        calif3 = c;
+    
+    public void establecerCalificacion3(double c3) {
+        calif3 = c3;
     }
 
-    // public void establecerValorFactura(){
     public void calcularValorFactura() {
         promedio = (calif1 + calif2 + calif3)/3;
     }

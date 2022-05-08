@@ -28,8 +28,8 @@ public class Profesores {
         apellido = "Penaldo";
     }
     
-    public void establecerNombre(String c) {
-        nomb = c;
+    public void establecerNombre(String n) {
+        nomb = n;
     }
     public void establecerApellido(String a) {
         apellido = a;
@@ -38,8 +38,8 @@ public class Profesores {
         cedula = ced;
     }
 
-    public void establecerSueldoBasico(double c) {
-        suelb = c;
+    public void establecerSueldoBasico(double sd) {
+        suelb = sd;
     }
     
     public void calcularSueldoTotal() {
@@ -62,7 +62,6 @@ public class Profesores {
     public double obtenerSueldoBasico() {
         return suelb;
     }
-
     
     public double ObtenerSueldoTotal() {
         return suelt;
